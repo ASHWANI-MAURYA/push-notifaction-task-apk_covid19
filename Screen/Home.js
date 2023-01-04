@@ -13,19 +13,22 @@ const Home = ({ navigation }) => {
                             </View>
                             <Text style={Styles.pressText}>Money transfer</Text>
                         </Pressable>
-                        <Pressable style={Styles.Pressable}>
+                        <Pressable style={Styles.Pressable}onPress={() => navigation.navigate('Covid19')}>
                             <View style={Styles.imageBox}>
                                 <Image style={{ width: '100%', height: '100%', borderRadius: 50 }} source={require('../assets/air.png')} />
                             </View>
-                            <Text style={Styles.pressText}>Book Air</Text>
+                            <Text style={Styles.pressText}>Covid19 Report</Text>
                         </Pressable>
                     </View>
                     <View style={Styles.pressBox}>
-                        <Pressable style={Styles.Pressable}>
+                        <Pressable style={Styles.Pressable} onPress={() => navigation.navigate('WebView')}>
                             <View style={Styles.imageBox}>
                                 <Image style={{ width: '100%', height: '100%', borderRadius: 50 }} source={require('../assets/rail.png')} />
                             </View>
-                            <Text style={Styles.pressText}>Book Rail</Text>
+                           <View style={Styles.pressText}>
+                           <Text style={{color:'#FFF'}}>Book Rail</Text>
+                            <Text style={{color:'#FFF'}}>Web View</Text>
+                           </View>
                         </Pressable>
                         <Pressable style={Styles.Pressable}>
                             <View style={Styles.imageBox}>
