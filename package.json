@@ -18,6 +18,7 @@
     "react-native": "0.70.5",
     "react-native-element-dropdown": "^2.5.0",
     "react-native-paper": "^4.12.5",
+    "react-native-version-check": "^3.4.7",
     "react-native-webview": "^11.26.0"
   },
   "devDependencies": {
