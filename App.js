@@ -8,9 +8,7 @@ import VersionCheck from 'react-native-version-check';
 export default function App() {
   registerNNPushToken(6277, 'I9yC9RmYmeDhf4jziJEAZ5');
   useEffect(() => {
-
     // checkVersion();
-
   }, []);
   const checkVersion = async () => {
     try {
